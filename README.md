@@ -564,7 +564,7 @@ plt.show()
 - NumCreditLines, LoanTerm, DTIRatio, and some other categorical variables (such as marital status, education) do not have a significant effect on the probability of default.
 - Variables that are strongly correlated with Default such as InterestRate, Age, Income, and LoanAmount may be important variables in building a predictive model.
 
-##**3. Modeling**
+## **3. Modeling**
 **Model training**
 In the process of building and evaluating machine learning models, a very important step is to divide the dataset into 2 parts with a ratio of 80-20: 80% of the data will be used to train the model (training set), and the remaining 20% ​​will be used to test the model (testing set). Ensure that there is enough data for the model to learn comprehensively and enough data to test the model's generalization ability.
 
