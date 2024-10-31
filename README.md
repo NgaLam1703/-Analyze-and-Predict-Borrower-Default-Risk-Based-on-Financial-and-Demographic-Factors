@@ -564,7 +564,7 @@ plt.show()
 - NumCreditLines, LoanTerm, DTIRatio, and some other categorical variables (such as marital status, education) do not have a significant effect on the probability of default.
 - Variables that are strongly correlated with Default such as InterestRate, Age, Income, and LoanAmount may be important variables in building a predictive model.
 
-## **3. Modeling**
+## **3. Machine learning models**
 **Model training**
 In the process of building and evaluating machine learning models, a very important step is to divide the dataset into 2 parts with a ratio of 80-20: 80% of the data will be used to train the model (training set), and the remaining 20% ​​will be used to test the model (testing set). Ensure that there is enough data for the model to learn comprehensively and enough data to test the model's generalization ability.
 
@@ -580,7 +580,6 @@ print("Training set shape:", X_train.shape)
 print("Testing set shape:", X_test.shape)
 ```
 ### **3.1. Logistic Regression**
-**F1-Score**
 
 ```
 from sklearn.linear_model import LogisticRegression
@@ -645,7 +644,8 @@ plt.show()
 
 Based on the above comments, to improve the finding of a suitable model, I will experiment with models such as Random Forest or Gradient Boosting and consider adding new features that can improve the model's recognition ability.
 
-###**3.2. Random Forest**
+### **3.2. Random Forest**
+
 ```
 from sklearn.ensemble import RandomForestClassifier
 
@@ -752,7 +752,7 @@ plt.show()
 
 The Precision-Recall plot of Gradient Boosting shows that the model does well in maintaining high Precision when Recall is low, but struggles when trying to cover all positive cases.
 
-### **3.4. So Sánh model**
+### **3.4. Compare models**
 ```
 # F1-Score and AUC data for models
 model_types = ['Logistic Regression', 'Random Forest', 'GradientBoosting']
