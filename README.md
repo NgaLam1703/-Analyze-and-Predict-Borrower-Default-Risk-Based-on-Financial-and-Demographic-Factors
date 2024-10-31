@@ -1,1 +1,35 @@
-# -Analyze-and-Predict-Borrower-Default-Risk-Based-on-Financial-and-Demographic-Factors
+# Analyze-and-Predict-Borrower-Default-Risk-Based-on-Financial-and-Demographic-Factors
+
+- **Goals of the Project**: The main goal is to build a predictive model to estimate the probability of loan default based on financial and demographic factors. By understanding key factors influencing default risk, the model aims to help financial institutions improve credit risk assessment and make data-driven lending decisions.
+- **Data Sources Used**: The dataset is sourced from Kaggle, specifically the "Loan Default Prediction Dataset." This dataset contains various financial and demographic variables related to borrowers, which are essential for analyzing and predicting default risk.
+- **Data Overview**: The dataset includes details about each loan, such as age, income, credit score, and employment information, which are useful in assessing credit risk.
+- **Structure**:
+    - LoanID: A unique identifier for each loan
+    - Age: The age of the borrower
+    - Income: The annual income of the borrower
+    - LoanAmount: The amount of money being borrowed
+    - CreditScore: The credit score of the borrower, indicating their creditworthiness
+    - MonthsEmployed: The number of months the borrower has been employed
+    - NumCreditLines: The number of credit lines the borrower has open
+    - InterestRate: The interest rate for the loan
+    - LoanTerm: The term length of the loan in months
+    - DTIRatio: The Debt-to-Income ratio, indicating the borrower’s debt compared to their income
+    - Education: The highest level of education attained by the borrower (PhD, Master’s, Bachelor’s, High School)
+    - EmploymentType: The type employment status of the borrower (Full-time, Part-time, Self-employed, Unemployed)
+    - MaritalStatus: The marital status of the borrower (Single, Married, Divorced)
+    - HasMortgage: Whether the borrower has a mortgage (Yes, No)
+    - HasDependents: Whether the borrower has dependents (Yes, No)
+    - LoanPurpose: The purpose of the loan (Home, Auto, Education, Business, Other)
+    - HasCoSigner: Whether the loan has a co-signer (Yes, No)
+    - Default: The binary target variable indicating whether the loan defaulted
+- **Tools and Technologies Applied**:
+  - Python: For data analysis, visualization, and machine learning model building.
+  - Libraries:
+      - Pandas & Numpy: Data manipulation and analysis.
+      - Matplotlib & Seaborn: Visualization for EDA and insights presentation.
+      - Scikit-learn: Building and evaluating machine learning models, such as Logistic Regression, Random Forest,                     and Gradient Boosting.
+  - Techniques: Data cleaning, handling missing values, outlier detection, encoding categorical variables, and correlation analysis.
+- **Key Insights Discovered**
+  - Factors Influencing Default: Age, Income, LoanAmount, and InterestRate are significant predictors of loan default risk.
+  - Younger borrowers with high loan amounts and high-interest rates show a higher likelihood of default.
+Non-significant Factors: Variables like Loan Purpose, Marital Status, and Employment Type showed minimal impact on default prediction, indicating they are less crucial in credit risk assessment.
