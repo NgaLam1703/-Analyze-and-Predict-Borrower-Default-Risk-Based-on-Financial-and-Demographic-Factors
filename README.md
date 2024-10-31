@@ -43,6 +43,8 @@ Non-significant Factors: Variables like Loan Purpose, Marital Status, and Employ
   - Age-Based Adjustments: Apply more stringent checks (like collateral) for borrowers under 30. For those over 30, consider more flexible terms due to their lower risk profile.
   - Interest Rate and Credit Score: For high-interest loans (above 20%) or low credit scores, consider collateral; ease restrictions for high-credit-score borrowers
 
+![alt]([:/http/~](https://github.com/NgaLam1703/-Analyze-and-Predict-Borrower-Default-Risk-Based-on-Financial-and-Demographic-Factors/blob/main/pngtree-financial-savings-png-image_3326481.jpg))
+
 In today’s financial landscape, accurately assessing credit risk is crucial for lending institutions to minimize defaults and enhance decision-making. This project aims to analyze and predict borrower default risk based on demographic and financial factors, providing insights that can shape better credit policies. By examining key factors such as income, age, loan amount, and interest rates, this analysis will develop a model to support more informed and risk-aware lending practices, ensuring financial stability and responsible credit management.
 
 ## **1. Exploratory**
