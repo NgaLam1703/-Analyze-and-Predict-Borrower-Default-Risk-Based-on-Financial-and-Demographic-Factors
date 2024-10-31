@@ -37,6 +37,7 @@ Non-significant Factors: Variables like Loan Purpose, Marital Status, and Employ
   - High-Interest Rates Increase Default Risk: Borrowers with loans at higher interest rates have a greater likelihood of default, likely due to the added financial burden.
   - Younger Borrowers with Larger Loans are at Higher Risk: Younger individuals with high loan amounts tend to have a higher default rate, possibly due to less financial stability or experience in debt management.
   - Stable Income and Employment Reduce Default Risk: Borrowers with consistent income and longer employment history show lower default rates, suggesting financial stability plays a significant role in repayment ability.
+  - Credit scores are an important indicator of default risk. People with low credit scores (below 500) are more likely to default. This highlights the importance of credit scores in the loan underwriting process. People with high credit scores (above 700) are generally more likely to repay their loans, and therefore may be eligible for better or less risky loan terms.
 - **Recommendations based on analysis results**
   - Low-Income Borrowers: For borrowers earning below 25,000, implement stricter requirements such as collateral or financial support options to reduce risk.
   - High Loan Amounts: For loans exceeding 100,000, conduct thorough financial assessments, while offering relaxed terms for smaller loans under 50,000.
@@ -800,13 +801,11 @@ Gradient Boosting is the best model among the three models for this problem, ach
 
 ## **4. Results and Insights**
 **Insights**
-- **Income and loan amount play an important role in default risk**. People with low incomes and large loans tend to default more easily.
-- Although high incomes are often associated with good repayment performance, there are some cases of defaults even when borrowers have high incomes. This suggests that factors other than income should be considered to more accurately assess the risk of default.
-- **High interest rates are closely related to default risk**. Borrowers with high interest rates (above 20%) have a much higher risk of default than those with low or medium interest rates. This suggests that financial institutions should be cautious when providing loans with high interest rates, possibly requiring additional collateral or conducting more thorough checks on the borrower's financial capacity.
-- **Credit score is an important indicator of default risk**. People with low credit scores (below 500) are more likely to default. This highlights the importance of credit scores in the loan underwriting process. People with high credit scores (above 700) are more likely to repay their loans, and therefore may enjoy better or less risky loan terms.
+- High-Interest Rates Increase Default Risk: Borrowers with loans at higher interest rates have a greater likelihood of default, likely due to the added financial burden.
+- Younger Borrowers with Larger Loans are at Higher Risk: Younger individuals with high loan amounts tend to have a higher default rate, possibly due to less financial stability or experience in debt management.
+- Stable Income and Employment Reduce Default Risk: Borrowers with consistent income and longer employment history show lower default rates, suggesting financial stability plays a significant role in repayment ability.
+- Credit scores are an important indicator of default risk. People with low credit scores (below 500) are more likely to default. This highlights the importance of credit scores in the loan underwriting process. People with high credit scores (above 700) are generally more likely to repay their loans, and therefore may be eligible for better or less risky loan terms.
 - Marital status, loan purpose, education level, and type of employment are not major determinants of default risk. This suggests that financial institutions do not need to focus too much on these factors to use in assessing default risk.- Default risk depends heavily on financial factors such as income, loan amount, interest rate, and credit score. Financial institutions need to pay special attention to these factors to more accurately assess the borrower's ability to repay.
-- Non-financial factors such as marital status, type of employment, education level and purpose of borrowing do not have a significant impact on default risk, and therefore should not be considered important factors when assessing loans.
-
 **Solution**
 - Low-Income Borrowers: For borrowers earning below 25,000, implement stricter requirements such as collateral or financial support options to reduce risk.
 - High Loan Amounts: For loans exceeding 100,000, conduct thorough financial assessments, while offering relaxed terms for smaller loans under 50,000.
