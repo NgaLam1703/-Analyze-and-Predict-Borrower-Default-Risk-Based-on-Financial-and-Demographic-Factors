@@ -33,3 +33,12 @@
   - Factors Influencing Default: Age, Income, LoanAmount, and InterestRate are significant predictors of loan default risk.
   - Younger borrowers with high loan amounts and high-interest rates show a higher likelihood of default.
 Non-significant Factors: Variables like Loan Purpose, Marital Status, and Employment Type showed minimal impact on default prediction, indicating they are less crucial in credit risk assessment.
+- **Hypotheses based on the insights**
+  - High-Interest Rates Increase Default Risk: Borrowers with loans at higher interest rates have a greater likelihood of default, likely due to the added financial burden.
+  - Younger Borrowers with Larger Loans are at Higher Risk: Younger individuals with high loan amounts tend to have a higher default rate, possibly due to less financial stability or experience in debt management.
+  - Stable Income and Employment Reduce Default Risk: Borrowers with consistent income and longer employment history show lower default rates, suggesting financial stability plays a significant role in repayment ability.
+- **Recommendations based on analysis results**
+  - Low-Income Borrowers: For borrowers earning below 25,000, implement stricter requirements such as collateral or financial support options to reduce risk.
+  - High Loan Amounts: For loans exceeding 100,000, conduct thorough financial assessments, while offering relaxed terms for smaller loans under 50,000.
+  - Age-Based Adjustments: Apply more stringent checks (like collateral) for borrowers under 30. For those over 30, consider more flexible terms due to their lower risk profile.
+  - Interest Rate and Credit Score: For high-interest loans (above 20%) or low credit scores, consider collateral; ease restrictions for high-credit-score borrowers
