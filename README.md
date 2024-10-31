@@ -1,4 +1,4 @@
-# Analyze and Predict Borrower Default Risk Based on Financial and Demographic Factors
+# Analyze and Predict Default Risk Based on Financial and Demographic Factors
 
 - **Goals of the Project**: The main goal is to build a predictive model to estimate the probability of loan default based on financial and demographic factors. By understanding key factors influencing default risk, the model aims to help financial institutions improve credit risk assessment and make data-driven lending decisions.
 - **Data Sources Used**: The dataset is sourced from Kaggle, specifically the "Loan Default Prediction Dataset." This dataset contains various financial and demographic variables related to borrowers, which are essential for analyzing and predicting default risk.
