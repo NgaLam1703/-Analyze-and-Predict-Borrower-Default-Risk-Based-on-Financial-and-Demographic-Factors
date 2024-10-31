@@ -800,12 +800,14 @@ plt.show()
 Gradient Boosting is the best model among the three models for this problem, achieving the highest F1-Score and AUC-ROC
 
 ## **4. Results and Insights**
+
 **Insights**
 - High-Interest Rates Increase Default Risk: Borrowers with loans at higher interest rates have a greater likelihood of default, likely due to the added financial burden.
 - Younger Borrowers with Larger Loans are at Higher Risk: Younger individuals with high loan amounts tend to have a higher default rate, possibly due to less financial stability or experience in debt management.
 - Stable Income and Employment Reduce Default Risk: Borrowers with consistent income and longer employment history show lower default rates, suggesting financial stability plays a significant role in repayment ability.
 - Credit scores are an important indicator of default risk. People with low credit scores (below 500) are more likely to default. This highlights the importance of credit scores in the loan underwriting process. People with high credit scores (above 700) are generally more likely to repay their loans, and therefore may be eligible for better or less risky loan terms.
 - Marital status, loan purpose, education level, and type of employment are not major determinants of default risk. This suggests that financial institutions do not need to focus too much on these factors to use in assessing default risk.- Default risk depends heavily on financial factors such as income, loan amount, interest rate, and credit score. Financial institutions need to pay special attention to these factors to more accurately assess the borrower's ability to repay.
+
 **Solution**
 - Low-Income Borrowers: For borrowers earning below 25,000, implement stricter requirements such as collateral or financial support options to reduce risk.
 - High Loan Amounts: For loans exceeding 100,000, conduct thorough financial assessments, while offering relaxed terms for smaller loans under 50,000.
