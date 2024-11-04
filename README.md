@@ -817,6 +817,12 @@ Gradient Boosting is the best model among the three models for this problem, ach
 
 Gradient Boosting is the best model among the three models for this default problem by achieving the F1-Score and AUC-ROC metrics.
 
+**Applications for businesses**
+- Predict whether customers will repay their debts before the due date to take timely measures based on factors such as income, age, number of credit limits, debt-to-income ratio, and credit score. This supports safer lending decisions.
+- Predict outstanding debt to prepare capital
+- Classify customers: Based on the model's ability to predict credit risk, businesses can classify customers into different risk groups (low, medium, high). Customers in the high-risk group can be recommended to provide collateral or loan insurance.
+- Build an early warning system: The model can be integrated into an early warning system to monitor loans at risk of default. Based on tracking financial and demographic factors, the system can issue alerts if a customer shows signs of high risk
+- Credit trend analysis: Using historical data from the model to analyze factors that affect the likelihood of default over time, helping businesses predict credit trends. For example, default rates may increase among younger customers or customers with multiple credit lines.
 
 
 
